@@ -1,32 +1,20 @@
-// import React from 'react';
-// import Message  from './Message/message'
 
-// class App extends React.Component{
-//     render(){
-//         return <div>
-//             <h2>GOOD EVENING</h2>
-//             <hr></hr>
-//             <h2>Message Component</h2>
-//             <Message/>
-//         </div>
-//     }
+
+// import Navbar from './Navbar'
+
+// let App=()=>{
+//     return <div>
+//        <Navbar/>
+//     </div>
 // }
 // export default App;
-import React from 'react'
-import Header from './website/Header'
-import Slider from './website/Slider'
-import Footer from './website/Footer'
-import Movie from './Movies/Movie'
-class App extends React.Component{
 
 
-    render(){
-
-        return <div>
-                    <h1>App Component</h1>
-                    <Movie/>
-               
-                </div>
-    }
+import CompA from "./props/CompA"
+let App =()=>{
+    return <div>
+        <h2>App Component</h2>
+        <CompA/>
+    </div>
 }
-export default App
+export default App;
